@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+<title id="title">Mini Agent workflow visual</title><desc id="desc">A premium dark AI agent workflow diagram connecting user intent, retrieval, tools, memory and final action.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090909"/><stop offset="1" stop-color="#181818"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#3b5bff" stop-opacity=".45"/><stop offset="1" stop-color="#3b5bff" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="25"/></filter>
+</defs>
+<rect width="1440" height="1080" fill="url(#bg)"/><rect width="1440" height="1080" fill="url(#grid)"/>
+<circle cx="720" cy="515" r="340" fill="url(#glow)" filter="url(#blur)"/>
+<g fill="none" stroke="#656565" stroke-width="2">
+  <path d="M285 360C430 360 470 505 610 505"/>
+  <path d="M610 505C520 640 430 720 285 720"/>
+  <path d="M830 505C970 505 1025 360 1160 360"/>
+  <path d="M830 505C970 505 1025 720 1160 720"/>
+</g>
+<g fill="#121212" stroke="#777" stroke-opacity=".55" stroke-width="2">
+  <rect x="120" y="290" width="290" height="150" rx="28"/><rect x="120" y="650" width="290" height="150" rx="28"/>
+  <rect x="1030" y="290" width="290" height="150" rx="28"/><rect x="1030" y="650" width="290" height="150" rx="28"/>
+</g>
+<g font-family="Arial, sans-serif" fill="#fff">
+  <text x="155" y="330" font-size="15" letter-spacing="4" fill="#9d9d9d">01 / USER INTENT</text><text x="155" y="382" font-size="31" font-weight="700">Prompt</text>
+  <text x="155" y="690" font-size="15" letter-spacing="4" fill="#9d9d9d">02 / KNOWLEDGE</text><text x="155" y="742" font-size="31" font-weight="700">Retrieve</text>
+  <text x="1065" y="330" font-size="15" letter-spacing="4" fill="#9d9d9d">03 / CAPABILITY</text><text x="1065" y="382" font-size="31" font-weight="700">Tools</text>
+  <text x="1065" y="690" font-size="15" letter-spacing="4" fill="#9d9d9d">04 / RESULT</text><text x="1065" y="742" font-size="31" font-weight="700">Act</text>
+</g>
+<g>
+  <circle cx="720" cy="505" r="145" fill="#0e0e0e" stroke="#3b5bff" stroke-width="3"/>
+  <circle cx="720" cy="505" r="104" fill="#3b5bff" fill-opacity=".10" stroke="#3b5bff" stroke-opacity=".28"/>
+  <text x="720" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" letter-spacing="5" fill="#9da9ff">AGENT LOOP</text>
+  <text x="720" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#fff">REASON</text>
+</g>
+<g fill="#3b5bff">
+  <circle cx="610" cy="505" r="8"/><circle cx="830" cy="505" r="8"/><circle cx="720" cy="360" r="8"/><circle cx="720" cy="650" r="8"/>
+</g>
+<g font-family="Arial, sans-serif" fill="#d7d7d7">
+  <text x="72" y="86" font-size="16" letter-spacing="7">MINI AGENT / RAG</text>
+  <text x="72" y="985" font-size="48" font-weight="700">From a prompt to a structured action.</text>
+  <text x="72" y="1030" font-size="18" fill="#8e8e8e">CONTEXT → REASONING → TOOLS → RESPONSE</text>
+  <text x="1235" y="90" font-size="14" text-anchor="end" letter-spacing="4" fill="#8e8e8e">AGENTIC AI</text>
+</g>
+</svg>
